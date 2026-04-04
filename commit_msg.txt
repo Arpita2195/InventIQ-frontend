@@ -1,0 +1,1 @@
+fix: add vercel.json for SPA routing and update api endpoint to render

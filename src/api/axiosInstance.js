@@ -1,5 +1,8 @@
 import axios from "axios";
 
+// PRODUCTION BACKEND URL (Render)
+// Note: Hardcoded for reliable connection in simple deployments. 
+// If using env vars, ensure VITE_API_URL is set in Vercel.
 const apiUrl = "https://inventiq-backend-wcm4.onrender.com";
 const api = axios.create({ baseURL: `${apiUrl}/api` });
 
