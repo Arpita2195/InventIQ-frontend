@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+node_modules/
+.env
+.env.local
+.env.production
+dist/
+build/
+.DS_Store
+=======
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production build
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+>>>>>>> 67e022207d59515e7c829b926531e113f78fae86
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+<<<<<<< HEAD
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+=======
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage
+*.lcov
+
+# Misc
+*.pem
+.cache
+>>>>>>> 67e022207d59515e7c829b926531e113f78fae86

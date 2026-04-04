@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+/* InventIQ Premium UI Design System */
+@theme {
+  --color-bg: #f8fafc;
+  --color-bg2: #ffffff;
+  --color-bg3: #f1f5f9;
+
+  --color-border: #e2e8f0;
+  --color-border2: #cbd5e1;
+
+  /* Brand Colors - Indigo & Cyan */
+  --color-primary: #6366f1;
+  --color-primary-light: #818cf8;
+  --color-primary-dark: #4f46e5;
+  --color-primary-soft: #eef2ff;
+
+  --color-accent: #06b6d4;
+  --color-accent-light: #22d3ee;
+  --color-accent-dark: #0891b2;
+  --color-accent-soft: #ecfeff;
+
+  /* Semantic Colors */
+  --color-success: #10b981;
+  --color-success-soft: #d1fae5;
+  --color-warning: #f59e0b;
+  --color-warning-soft: #fef3c7;
+  --color-danger: #ef4444;
+  --color-danger-soft: #fee2e2;
+
+  /* Legacy aliases for compatibility */
+  --color-purple: var(--color-primary);
+  --color-purple-l: var(--color-primary-light);
+  --color-purple-xl: var(--color-primary-soft);
+  
+  --color-teal: var(--color-accent);
+  --color-teal-l: var(--color-accent-light);
+  --color-teal-xl: var(--color-accent-soft);
+
+  --color-green: var(--color-success);
+  --color-green-l: var(--color-success-soft);
+  
+  --color-coral: var(--color-danger);
+
+  --color-text: #0f172a;
+  --color-text2: #334155;
+
+  --color-muted: #64748b;
+  --color-muted2: #94a3b8;
+
+  --color-card: #ffffff;
+
+  --font-syne: "Syne", sans-serif;
+  --font-sans: "Inter", "DM Sans", sans-serif;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    border-color: var(--color-border);
+  }
+}
+
+/* Animations */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}

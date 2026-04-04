@@ -1,0 +1,29 @@
+
+> inventiq-client@1.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2472 modules transformed.
+[31mx[39m Build failed in 5.96s
+[31merror during build:
+[31msrc/components/InventoryTable.jsx (17:46): "cn" is not exported by "src/components/ui/index.jsx", imported by "src/components/InventoryTable.jsx".[31m
+file: [36mC:/Users/Arpita/Downloads/inventiq_1 (2)yashu 2/inventiq_1/inventiq_white_groq/inventiq/client/src/components/InventoryTable.jsx:17:46[31m
+[33m
+15:   Filter
+16: } from "lucide-react";
+17: import { Input, Select, ShimmerButton, Badge, cn } from "./ui";
+                                                  ^
+18: 
+19: const CATEGORY_MAP = {
+[31m
+    at getRollupError (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/parseAst.js:406:41)
+    at error (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/parseAst.js:402:42)
+    at Module.error (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:17380:16)
+    at Module.traceVariable (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:17813:29)
+    at ModuleScope.findVariable (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:15403:39)
+    at FunctionScope.findVariable (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at FunctionBodyScope.findVariable (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at ReturnValueScope.findVariable (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at FunctionBodyScope.findVariable (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at Identifier.bind (file:///C:/Users/Arpita/Downloads/inventiq_1%20(2)yashu%202/inventiq_1/inventiq_white_groq/inventiq/client/node_modules/rollup/dist/es/shared/node-entry.js:5450:40)[39m

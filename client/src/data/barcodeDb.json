@@ -1,0 +1,93 @@
+{
+  "8901058864700": {
+    "name": "Maggi 2-Minute Noodles 70g",
+    "category": "Snacks",
+    "price": 14,
+    "unit": "pcs",
+    "lowStockThreshold": 20
+  },
+  "8904000903901": {
+    "name": "Amul Butter Pasteurized 100g",
+    "category": "Butter",
+    "price": 56,
+    "unit": "pcs",
+    "lowStockThreshold": 10
+  },
+  "8901491100527": {
+    "name": "Lay's Classic Salted Chips 50g",
+    "category": "Snacks",
+    "price": 20,
+    "unit": "pcs",
+    "lowStockThreshold": 15
+  },
+  "8901719275069": {
+    "name": "Parle-G Original Gluco Biscuits",
+    "category": "Biscuits",
+    "price": 10,
+    "unit": "pcs",
+    "lowStockThreshold": 30
+  },
+  "8901030366432": {
+    "name": "Cadbury Dairy Milk Silk 60g",
+    "category": "Chocolates",
+    "price": 85,
+    "unit": "pcs",
+    "lowStockThreshold": 5
+  },
+  "8901012111105": {
+    "name": "Surf Excel Matic Liquid 1L",
+    "category": "Detergent",
+    "price": 210,
+    "unit": "pcs",
+    "lowStockThreshold": 10
+  },
+  "8901725114536": {
+    "name": "Aashirvaad Shudh Chakki Atta 5kg",
+    "category": "Rice/Atta/Grains (Packed)",
+    "price": 255,
+    "unit": "pcs",
+    "lowStockThreshold": 10
+  },
+  "8901593010113": {
+    "name": "Tata Salt Iodised 1kg",
+    "category": "Salt",
+    "price": 28,
+    "unit": "pcs",
+    "lowStockThreshold": 25
+  },
+  "8901058000443": {
+    "name": "Nescafé Classic Instant Coffee 50g",
+    "category": "Coffee",
+    "price": 160,
+    "unit": "pcs",
+    "lowStockThreshold": 10
+  },
+  "8901030704388": {
+    "name": "Bournvita Health Drink 500g",
+    "category": "General",
+    "price": 230,
+    "unit": "pcs",
+    "lowStockThreshold": 5
+  },
+  "8901207000185": {
+    "name": "Dabur Honey 250g",
+    "category": "General",
+    "price": 110,
+    "unit": "pcs",
+    "lowStockThreshold": 8
+  },
+  "8901023007625": {
+    "name": "Everest Garam Masala 50g",
+    "category": "Masala",
+    "price": 38,
+    "unit": "pcs",
+    "lowStockThreshold": 15
+  },
+  "TEST-COLA": {
+    "name": "Coca Cola 2L Bottle",
+    "category": "Aerated Drinks",
+    "price": 95,
+    "unit": "pcs",
+    "lowStockThreshold": 10
+  }
+}
